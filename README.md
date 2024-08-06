@@ -90,6 +90,39 @@ Planned tests include:
 - Detonation testing (in coordination with local authorities)
 - Battery life and range testing
 
+## Using the Project Files
+
+
+First, you should download VESC Tool, the ESC controlling software we used as part of this project. While
+a raw implementation on the Arduino Uno or even a Raspberry Pi may be preferable, the instructional needs
+for this project isn't that extensive. As such, using this open-source software will serve our needs plenty.
+
+Make sure to download it [here](https://vesc-project.com/vesc_tool).
+
+Next, you'll want to download the Arduino IDE to upload the ```.ino``` file to your Arduino board.
+
+Make sure to download Arduino IDE [here](https://www.arduino.cc/en/software).
+
+
+### Load VESC Configuration Files
+
+To load the VESC Configuration files, you'll want to navigate to the VESC Settings and import
+the XML files found under the repository configs folder to the options ``` Load Motor Configuration XML ```
+and ``` Load App Configuration XML ```:
+
+![Screen Shot 2024-08-06 at 12.50.40 AM.png](..%2F..%2F..%2FDownloads%2FScreen%20Shot%202024-08-06%20at%2012.50.40%20AM.png)
+
+### Load Arduino .ino File
+
+After loading the sketch in the Arduino IDE, please refer to the wiring diagrams previously seen above and decide how
+you will wire the required connections on your own physical build. The code assumes some default values
+but you are able to change the variables quite easily at the very top. Please upload them as needed.
+
+![Screen Shot 2024-08-06 at 2.39.12 AM.png](..%2F..%2F..%2FDownloads%2FScreen%20Shot%202024-08-06%20at%202.39.12%20AM.png)
+
+After uploading, your wireless PWM controller should be working and communicating with the Arduino which
+then relays your intent to the dual Electronic Speed Controllers.
+
 ## Future Improvements
 
 Potential areas for future development include:
@@ -98,8 +131,6 @@ Potential areas for future development include:
 - Exploration of alternative materials for weight reduction
 - Enhancement of control systems for improved maneuverability
 
-
-## Using the Project Files
-
-
+Currently, we are working on fine-tuning the software implementation and expand functionality to several different
+controller configurations. This will allow the project to be much more flexible and modular in design.
 

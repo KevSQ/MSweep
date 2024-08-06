@@ -110,7 +110,7 @@ To load the VESC Configuration files, you'll want to navigate to the VESC Settin
 the XML files found under the repository configs folder to the options ``` Load Motor Configuration XML ```
 and ``` Load App Configuration XML ```:
 
-![Screen Shot 2024-08-06 at 12.50.40 AM.png](..%2F..%2F..%2FDownloads%2FScreen%20Shot%202024-08-06%20at%2012.50.40%20AM.png)
+![Screen Shot 2024-08-06 at 12 50 40 AM](https://github.com/user-attachments/assets/b60e364a-783d-4cb4-a534-6c6ea079770e)
 
 ### Load Arduino .ino File
 
@@ -118,7 +118,8 @@ After loading the sketch in the Arduino IDE, please refer to the wiring diagrams
 you will wire the required connections on your own physical build. The code assumes some default values
 but you are able to change the variables quite easily at the very top. Please upload them as needed.
 
-![Screen Shot 2024-08-06 at 2.39.12 AM.png](..%2F..%2F..%2FDownloads%2FScreen%20Shot%202024-08-06%20at%202.39.12%20AM.png)
+![Screen Shot 2024-08-06 at 2 39 12 AM](https://github.com/user-attachments/assets/869b948a-05b6-4764-890f-4cc32c02dd47)
+
 
 After uploading, your wireless PWM controller should be working and communicating with the Arduino which
 then relays your intent to the dual Electronic Speed Controllers.

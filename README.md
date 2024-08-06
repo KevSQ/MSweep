@@ -1,10 +1,12 @@
 # DIY Minesweeper: MSweep
 
+![image19](https://github.com/user-attachments/assets/11b7cfc9-7678-4710-9d49-2f7b876ec0d5)
+
 ## Project Overview
 
-The Mines and Ordnance Fast Obstacle Clearer (MOFO) is a DIY minesweeper robot designed and built by Team Fighting Bombs, Ordnance, and Mines with Breakthroughs in Science (FBOMBS) at Columbia University. This project was developed as part of the Fall '23 Hacking For Defense class with the goal of creating an efficient and cost-effective solution for clearing antipersonnel mines in contested environments.
+MSweep is a DIY minesweeper robot designed and built by Team Fighting Bombs, Ordnance, and Mines with Breakthroughs in Science at Columbia University. This project was developed as part of the Fall '23 Hacking For Defense class with the goal of creating an efficient and cost-effective solution for clearing antipersonnel mines in contested environments. The project files and design are available here and open-source for anyone to pull and modify to their needs!
 
-Key features of MOFO include:
+Key features of MSweep include:
 - Twin-engine, three-wheeled design for stability and maneuverability
 - Dimensions: 24" wide x 24" long
 - Capable of clearing a 24" wide path
@@ -12,45 +14,17 @@ Key features of MOFO include:
 - Maximum speed of 5 miles per hour
 - Designed for easy reproduction and replacement of parts
 
-## Team Organization
-
-Our team consists of 5 undergraduate and 2 graduate students from various schools within Columbia University:
-- Columbia College
-- School of Engineering and Applied Science
-- School of General Studies
-
-The team is divided into three subteams:
-1. Electrical
-2. Mechanical
-3. Research/Admin
-
 ## Design Process
 
 ### Initial Concept
 
-The initial design concept for MOFO was inspired by the idea of a 3-wheeled mine detonating electric skateboard. This concept aimed to create a simple, cost-effective, and easily reproducible robot capable of clearing antipersonnel mines in various terrains.
+The initial design concept for MSweep was inspired by the idea of a 3-wheeled mine detonating electric skateboard. This concept aimed to create a simple, cost-effective, and easily reproducible robot capable of clearing antipersonnel mines in various terrains.
 
-### Design Evolution
-
-Throughout the development process, our team explored various design options and faced several challenges:
-
-1. **Drivetrain:**
-   - Initially considered a chain drive system
-   - Evolved to a spur gear setup inspired by off-road electric skateboards
-   
-2. **Wheel Design:**
-   - Explored options including large gears, moon-rover wheels, and replaceable wooden blocks
-   - Developed 3D printed wheel prototypes
-   - Finally adopted an adapted off-the-shelf (OTS) wheel solution
-
-3. **Chassis and Structure:**
-   - Started with a ⅜" mild steel plate as the main chassis
-   - Developed custom mounting solutions for the drivetrain and wheels
-   - Refined the design to improve stability and blast resistance
+![image15](https://github.com/user-attachments/assets/fb7e7eb0-179e-4b54-8c98-c1eae1b9f8a5)
 
 ### Final Design
 
-The final MOFO design features:
+The final MSweep design features:
 - A reverse tricycle configuration with two powered front wheels and one unpowered rear wheel
 - Adapted OTS wheels with custom 3D printed (later metal) adapters
 - Spur gear drivetrain for efficient power transfer
@@ -95,12 +69,14 @@ Assembly process included:
 
 ## Electrical Design
 
-The electrical system of MOFO includes:
+The electrical system of MSweep includes:
 - Arduino Uno as the central processor
 - Dual ESCs (Electronic Speed Controllers) with VESC software
 - RC receiver for wireless control
 - CAN Bus protocol for motor synchronization
 - Custom Y-splitter cables and connections
+
+![image13](https://github.com/user-attachments/assets/98089b8a-2aec-4fb8-930b-4e32d1651cae)
 
 ## Testing Plan
 
@@ -122,10 +98,8 @@ Potential areas for future development include:
 - Exploration of alternative materials for weight reduction
 - Enhancement of control systems for improved maneuverability
 
-## Acknowledgements
 
-We would like to thank Professor Paul Blaer for advising our team, and Matt Toles for the initial concept and technical guidance. We also extend our gratitude to Columbia University and the Hacking For Defense program for providing us with this opportunity to work on a real-world problem.
+## Using the Project Files
 
----
 
-This project is part of the Columbia University Hacking For Defense class. For more information, please contact [Your Contact Information].
+
